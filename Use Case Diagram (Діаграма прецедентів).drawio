@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.4.0">
+  <diagram name="Page-1" id="msEAPywliv38bC30A1es">
+    <mxGraphModel dx="1489" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TAjrVfAD_fCduUN4iUY7-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Підсистема семантичного пошуку" vertex="1">
+          <mxGeometry height="1080" width="663" x="316" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TAjrVfAD_fCduUN4iUY7-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="👤 Військовий спеціаліст" vertex="1">
+          <mxGeometry height="54" width="246" x="20" y="401" as="geometry" />
+        </mxCell>
+        <mxCell id="TAjrVfAD_fCduUN4iUY7-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="👤 Адміністратор безпеки" vertex="1">
+          <mxGeometry height="54" width="253" x="341" y="1135" as="geometry" />
+        </mxCell>
+        <mxCell id="TAjrVfAD_fCduUN4iUY7-7" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Введення пошукового запиту &#xa; природною мовою" vertex="1">
+          <mxGeometry height="215" width="215" x="360" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="TAjrVfAD_fCduUN4iUY7-8" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" value="Фільтрація за грифом &#xa; та типом техніки" vertex="1">
+          <mxGeometry height="215" width="215" x="739" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="TAjrVfAD_fCduUN4iUY7-9" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Векторизація тексту &#xa; (NLP)" vertex="1">
+          <mxGeometry height="215" width="215" x="739" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="TAjrVfAD_fCduUN4iUY7-10" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Перегляд фрагментів &#xa; документації" vertex="1">
+          <mxGeometry height="215" width="215" x="360" y="718" as="geometry" />
+        </mxCell>
+        <mxCell id="TAjrVfAD_fCduUN4iUY7-11" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Завантаження та парсинг &#xa; нових мануалів" vertex="1">
+          <mxGeometry height="215" width="215" x="739" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="TAjrVfAD_fCduUN4iUY7-12" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" value="Управління правами доступу &#xa; (RBAC)" vertex="1">
+          <mxGeometry height="215" width="215" x="739" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="TAjrVfAD_fCduUN4iUY7-13" edge="1" parent="1" source="TAjrVfAD_fCduUN4iUY7-7" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.83;entryX=0;entryY=0.5;rounded=0;" target="TAjrVfAD_fCduUN4iUY7-9" value="&lt;&lt;include &gt;&gt;;">
+          <mxGeometry relative="1" x="-0.0518" y="22" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="667" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAjrVfAD_fCduUN4iUY7-14" edge="1" parent="1" source="TAjrVfAD_fCduUN4iUY7-7" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.16;entryX=0;entryY=0.5;rounded=0;" target="TAjrVfAD_fCduUN4iUY7-8" value="&lt;&lt; extend&gt;&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="667" y="163" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAjrVfAD_fCduUN4iUY7-15" edge="1" parent="1" source="TAjrVfAD_fCduUN4iUY7-5" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.62;exitY=-0.01;entryX=0;entryY=0.5;rounded=0;" target="TAjrVfAD_fCduUN4iUY7-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="291" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAjrVfAD_fCduUN4iUY7-16" edge="1" parent="1" source="TAjrVfAD_fCduUN4iUY7-5" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.54;exitY=0.99;entryX=0;entryY=0.5;rounded=0;" target="TAjrVfAD_fCduUN4iUY7-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="291" y="825" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAjrVfAD_fCduUN4iUY7-17" edge="1" parent="1" source="TAjrVfAD_fCduUN4iUY7-6" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.55;exitY=0;entryX=0;entryY=0.5;rounded=0;" target="TAjrVfAD_fCduUN4iUY7-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="667" y="693" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAjrVfAD_fCduUN4iUY7-18" edge="1" parent="1" source="TAjrVfAD_fCduUN4iUY7-6" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.6;exitY=0;entryX=0;entryY=0.5;rounded=0;" target="TAjrVfAD_fCduUN4iUY7-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="667" y="958" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

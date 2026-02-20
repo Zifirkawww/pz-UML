@@ -1,0 +1,172 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.4.0">
+  <diagram name="Page-1" id="5sO-uVWGf_uPZZgiPODc">
+    <mxGraphModel dx="2316" dy="1267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DOeqIpjYN30BpFveSyHb-73" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&quot;Клієнтська частина&quot;" vertex="1">
+          <mxGeometry height="767" width="160" x="615" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-74" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="&quot;Ядро обробки&quot;" vertex="1">
+          <mxGeometry height="767" width="430" x="987" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-75" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&quot;Рівень даних&quot;" vertex="1">
+          <mxGeometry height="767" width="405" x="1477" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-76" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Військовий спеціаліст" vertex="1">
+          <mxGeometry height="742" width="35" x="160" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-77" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Веб-інтерфейс" vertex="1">
+          <mxGeometry height="742" width="150" x="620" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-78" parent="DOeqIpjYN30BpFveSyHb-77" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
+          <mxGeometry height="496" width="20" x="60" y="141" as="geometry" />
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-79" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Модуль NLP / Ембеддінгів" vertex="1">
+          <mxGeometry height="742" width="211" x="992" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-80" parent="DOeqIpjYN30BpFveSyHb-79" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
+          <mxGeometry height="54" width="20" x="90" y="303" as="geometry" />
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-81" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Сервіс Авторизації" vertex="1">
+          <mxGeometry height="742" width="159" x="1253" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-82" parent="DOeqIpjYN30BpFveSyHb-81" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
+          <mxGeometry height="54" width="14" x="70" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-83" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Векторна БД (Milvus)" vertex="1">
+          <mxGeometry height="742" width="173" x="1482" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-84" parent="DOeqIpjYN30BpFveSyHb-83" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
+          <mxGeometry height="54" width="21" x="70" y="411" as="geometry" />
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-85" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Сховище документів" vertex="1">
+          <mxGeometry height="742" width="172" x="1705" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-86" parent="DOeqIpjYN30BpFveSyHb-85" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
+          <mxGeometry height="54" width="21" x="70" y="519" as="geometry" />
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-87" edge="1" parent="1" source="DOeqIpjYN30BpFveSyHb-76" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="DOeqIpjYN30BpFveSyHb-78" value="Вводить запит (&quot;ремонт дульного гальма&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="481" y="226" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-88" parent="DOeqIpjYN30BpFveSyHb-87" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="1" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-230" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-89" edge="1" parent="1" source="DOeqIpjYN30BpFveSyHb-78" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="DOeqIpjYN30BpFveSyHb-82" value="Перевірка рівня допуску користувача">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1024" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-90" parent="DOeqIpjYN30BpFveSyHb-89" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="2" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-324" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-91" edge="1" parent="1" source="DOeqIpjYN30BpFveSyHb-82" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="DOeqIpjYN30BpFveSyHb-78" value="Токен доступу (напр. &quot;Таємно&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1025" y="334" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-92" parent="DOeqIpjYN30BpFveSyHb-91" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="3" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="308" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-93" edge="1" parent="1" source="DOeqIpjYN30BpFveSyHb-78" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="DOeqIpjYN30BpFveSyHb-80" value="Передача текстового запиту">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="907" y="388" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-94" parent="DOeqIpjYN30BpFveSyHb-93" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="4" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-206.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-95" edge="1" parent="1" source="DOeqIpjYN30BpFveSyHb-80" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="DOeqIpjYN30BpFveSyHb-78" value="Повернення вектора запиту [0.14, -0.89, ...]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="908" y="442" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-96" parent="DOeqIpjYN30BpFveSyHb-95" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="5" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="190.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-97" edge="1" parent="1" source="DOeqIpjYN30BpFveSyHb-78" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="DOeqIpjYN30BpFveSyHb-84" value="Пошук найближчих векторів (Cosine Similarity)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1142" y="496" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-98" parent="DOeqIpjYN30BpFveSyHb-97" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="6" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-442" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-99" edge="1" parent="1" source="DOeqIpjYN30BpFveSyHb-84" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="DOeqIpjYN30BpFveSyHb-78" value="Повернення ID релевантних фрагментів">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1143" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-100" parent="DOeqIpjYN30BpFveSyHb-99" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="7" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="426" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-101" edge="1" parent="1" source="DOeqIpjYN30BpFveSyHb-78" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="DOeqIpjYN30BpFveSyHb-86" value="Запит тексту за ID + фільтр за допуском">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1253" y="604" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-102" parent="DOeqIpjYN30BpFveSyHb-101" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="8" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-553.25" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-103" edge="1" parent="1" source="DOeqIpjYN30BpFveSyHb-86" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="DOeqIpjYN30BpFveSyHb-78" value="Відфільтровані фрагменти документації">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1254" y="658" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-104" parent="DOeqIpjYN30BpFveSyHb-103" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="9" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="537.25" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-105" edge="1" parent="1" source="DOeqIpjYN30BpFveSyHb-78" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="DOeqIpjYN30BpFveSyHb-76" value="Відображення результатів з підсвічуванням тексту">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="482" y="712" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DOeqIpjYN30BpFveSyHb-106" parent="DOeqIpjYN30BpFveSyHb-105" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="10" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="214" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
